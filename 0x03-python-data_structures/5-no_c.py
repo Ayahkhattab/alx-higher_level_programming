@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-def print_list_integer(_list=[]):
-    for i in _list:
-        print('{:d}'.format(i))
+def no_c(my_string):
+    new_str = ''.join([i for i in my_string if i.lower() != 'c'])
+    return new_str
