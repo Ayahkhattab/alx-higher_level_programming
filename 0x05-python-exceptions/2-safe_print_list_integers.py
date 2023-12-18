@@ -8,5 +8,9 @@ def safe_print_list_integers(my_list=[], x=0):
         except (ValueError, TypeError):
             pass
     print()
-    Return
+    return count
 
+# Example usage:
+my_list = [1, 'a', 2, 'b', 3]
+count = safe_print_list_integers(my_list, len(my_list))
+print("Number of integers printed:", count)
