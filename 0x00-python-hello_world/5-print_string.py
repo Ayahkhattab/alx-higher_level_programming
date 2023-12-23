@@ -1,4 +1,3 @@
-5-print_string.py
 #!/usr/bin/python3
 str = "Holberton School"
 print(str * 3)
